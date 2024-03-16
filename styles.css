@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+}
+
+.head {
+    background: #0a0b27;
+    z-index: 2;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1000000;
+    top: 0px;
+    ;
+}
+
+.px-2 {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    color: #fff;
+}
+
+.img-responsive {
+    height: 25px;
+}
+
+.nav-item .nav-link:hover {
+    color: #e53f27;
+    text-shadow: #fff;
+}
+
+.dropdown-menu {
+    background-color: #e53f27;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: black;
+}
+
+.img-fluid {
+    width: 100%;
+    position: relative;
+
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    height: 1100px;
+
+}
+
+#karakkam {
+    height: 310px;
+    width: 90px;
+    margin-left: 40%;
+    margin-top: 60%;
+    position: relative;
+
+}
+
+.frooti {
+    margin-top: -33%;
+    font-family: EksellDisplayWeb-Small;
+    font-size: 50px;
+    color: aliceblue;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 3px;
+    z-index: 1;
+    position: relative;
+}
+
+.content p {
+    font-family: "merivaregular";
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+.column1 {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+    height: 250px;
+}
+
+.mails {
+    text-decoration: none;
+    color: black;
+}
+
+.media {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background: black;
+    border-radius: 50%;
+}
+
+.mails:hover {
+    color: red;
+}
+
+.media:hover {
+    background-color: red;
+}
+
+.para {
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+@media screen and (max-width:667px) {
+    .column {
+        width: 100%;
+    }
+
+    .frooti {
+        font-size: 35px;
+        position: relative;
+        margin-left: 10%;
+        margin-top: -50%;
+    }
+
+    .column1 {
+        width: 100%;
+
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+    .frooti {
+        font-size: 35px;
+        position: relative;
+        margin-left: 10%;
+        margin-top: -48%;
+    }
+
+
+}
+
+@media screen and (max-width:320px) {
+    .frooti {
+        font-size: 35px;
+        position: relative;
+        margin-left: 12%;
+        margin-top: -68%;
+    }
+
+    #karakkam {
+        height: 250px;
+
+    }
+
+
+}
+
+@media screen and(max-width:320px) {
+    .nav-link {
+        margin-left: -30px;
+        font-size: xx-small;
+    }
+
+}
+
+@media screen and(max-width:1439px) {
+    .nav-link {
+        margin-left: -20px;
+    }
+}
